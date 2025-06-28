@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educacão Financeira - Investimentos</title>
+  <link rel="stylesheet" href="investment.css">
+</head>
+<body>
+  <header>
+    <img src="imagens/Group 3.png" alt="Logo" id="logo">
+    <div id="menu">
+      <div class="buttons">
+        <form action="index.html" method="get">
+          <button type="submit" id="backButton">Volte a tela inicial</button>
+        </form>
+    </div>
+  </header>
+
+  <div id="introduction">
+    <div>
+      <h2 id="introductionTitle">Aprenda a investir com segurança e clareza!</h2>
+    
+        <h4>Investir pode parecer um monstro de sete cabeças, à primeira vista, mas nesse
+            blog iremos provar que isso não é verdade, e juntando o seu esforço com nosso
+            guia você vai aprender bem fácil.
+        </h4>
+    </div>
+
+ 
+   <img id="introductionIMG" src="imagens/Investimentos.jpg" alt="Educacão financeira">
+
+  </div>
+
+  <div>
+    <h2 id="investiment">Conhecimento é o melhor investimento</h2>
+
+    <ul>
+      <h3>1. Entenda seu perfil de investidor</h3>
+      <li>Cada pessoa tem uma tolerância diferente ao risco. Se você não gosta de arriscar, pode começar com investimentos mais seguros, como Tesouro Direto.
+          Se está disposto a enfrentar um pouco mais de volatilidade, pode tentar ações ou fundos.</li>
+        
+          <hr>
+
+        <h3>2. Comece com o básico</h3> 
+        <li>Não precisa começar com grandes investimentos. Tesouro Direto e CDBs são opções simples, seguras e fáceis de entender para iniciantes.</li>
+
+        <hr>
+
+        <h3>3. Diversifique</h3> 
+        <li>Não coloque todo o seu dinheiro em um só lugar. Isso ajuda a reduzir riscos, e você ainda pode buscar diferentes tipos de retorno.</li>
+
+        <hr>
+
+        <h3>4. Pesquise</h3>
+        <li>Antes de investir, busque entender o que você está fazendo. Isso pode te ajudar a se sentir mais tranquilo e tomar decisões mais conscientes.</li>
+
+        <img id="contentIMG" src="imagens/Bancos de Investimentos.jpg" alt="Pague as dívidas">
+        
+        <h3>5. Fique de olho nos custos</h3>
+        <li>Sempre observe taxas que podem impactar seus ganhos, como taxas de corretagem ou administração.</li>
+
+        <hr>
+
+        <h3>6. Tenha paciência</h3>
+        <li>O mercado de investimentos tem altos e baixos, mas com o tempo e a disciplina, os resultados surgem. Não se desespere com quedas momentâneas.</li>
+
+        <hr>
+
+        <h3>7. Se precisar, peça ajuda</h3>
+        <li>Se estiver perdido, consultar um especialista financeiro pode ser uma boa forma de começar com o pé direito.</li>
+
+        <hr>
+
+        <h1 id="InvestimentTitle">Simulador de Investimentos</h1>
+
+
+        <h2 id="calculatorType">Escolha o tipo de Calculadora de juros Compostos</h2>
+        <div id="checkboxes">
+          <label>
+            <input type="checkbox" class="checkbox" value="checkbox1"/>
+            Calculadora de Rendimento Total
+          </label>
+  
+          <label>
+            <input type="checkbox" class="checkbox" value="checkbox2">
+            Calculadora de Resultado Alvo
+          </label>
+        </div>
+
+        <div class="calculadora checkbox1 hidden" id="RendimentoTotal">
+          <h1>Rendimento Total</h1>
+          <form class="calculatorBox" id="investiment-form">
+              <label for="initial-amount">Valor Inicial (R$):</label>
+              <input type="number" id="initial-amount" required>
+  
+              <label for="interest-rate">Taxa de Juros (% ao mês):</label>
+              <input type="number" id="interest-rate" step="0.01" required>
+  
+              <label for="months">Período (meses):</label>
+              <input type="number" id="months" required>
+
+              <label for="months">Investimento mensal</label>
+              <input type="number" id="monthlyInvestment" required>
+  
+              <button type="button" class="simulate-button" id="simulate-button1">Simular</button>
+          </form>
+          
+          <div class="chart-container">
+              <canvas id="investmentChart"></canvas>
+          </div>
+      </div>
+
+      <div class="calculadora checkbox2 hidden" id="ResultadoAlvo">
+        <h1>Resultado Alvo</h1>
+        
+       <form class="calculatorBox" id="investiment-form">
+            <label for="initial-amount2">Valor Inicial (R$):</label>
+            <input type="number" id="initial-amount2" required>
+
+            <label for="interest-rate2">Taxa de Juros (% ao mês):</label>
+            <input type="number" id="interest-rate2" step="0.01" required>
+
+            <label for="months2">Investimento mensal</label>
+            <input type="number" id="monthlyInvestment2" required>
+
+            <label for="targetResult2">Resultado Alvo</label>
+            <input type="number" id="targetResult2" required>
+
+            <button type="button" class="simulate-button" id="simulate-button2">Simular</button>
+
+            <input type="button" value="Faça outra simulação!" class="simulate-button" id="resetButton2" onclick="resetCode2()">
+        </form>
+
+        
+        
+        <div id="finalResult" style="margin-top: 20px;"></div>
+    </div>
+
+      <script src="investimentTotal.js"></script>
+      <script src="investimentCheckBoxes.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="investimentTargetResult.js"></script>
+
+      <hr>
+        
+        <h3 id="conclusion">Conclusão</h3>
+        <li>Invista com calma, aprenda com a jornada e, com o tempo, você verá seu dinheiro crescer.</li>
+    </ul>
+  </div>
+</body>
+</html>

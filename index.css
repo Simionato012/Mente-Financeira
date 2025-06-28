@@ -1,0 +1,149 @@
+/* Tags sem expecificações (ids ou classes) */
+
+body {
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 150px;
+}
+
+
+
+h4 {
+  font-size: large;
+  margin-left: 360px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 36px;
+}
+
+h2 {
+  color: #D05270;
+  width: 482px;
+  height: 63px;
+  margin-left: 360px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1 {
+  color: #3A0CA3;
+  width: 482px;
+  height: 63px;
+  margin-left: 360px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 176px;
+}
+
+h3 {
+  font-size: large;
+  margin-left: 360px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 36px;
+  margin-bottom: 225px;
+}
+
+/* Aba de menu */
+
+#menu {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  display: flex;
+  margin-top: 88px;
+}
+
+img#logo {
+  display: flex;
+  width: 220.43px;
+  height: 60px;
+
+  margin-left: 300px;
+}
+
+.buttons {
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 280px;
+  position: relative;
+}
+
+#button {
+  padding: 15px;
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  letter-spacing: 1px;
+}
+
+#menu {
+  margin-left: 130px;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+  align-items: center;
+}
+
+#button:hover {
+  background-color: hsl(251, 44%, 64%);
+}
+
+/* Introdução */
+
+img#introductionTitle {
+  width: 408.65px;
+  height: 407px;
+  border-radius: 10px;  
+  margin-top: 110px;
+  margin-right: 359px;
+}
+
+div#introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img#middleIMG {
+  width: 1200px;
+  height: 845px;
+  margin-left: 361px;
+  margin-top: 200px;
+}

@@ -1,0 +1,174 @@
+/* Tags sem expecificações (ids ou classes) */
+
+h3 {
+  color: #3A0CA3;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+  margin-left: 360px;
+  display: flex;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #333; 
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 360px;
+  border-radius: 5px; 
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #5A645A;
+  font-family: "Montserrat", serif;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 150px;
+}
+
+li {
+  font-size: large;
+  margin-left: 360px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-top: 36px;
+  margin-bottom: 3rem;
+}
+
+h4 {
+  font-size: large;
+  margin-left: 360px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 36px;
+}
+
+/* Aba de menu */
+
+img#logo {
+  display: flex;
+  width: 220.43px;
+  height: 60px;
+
+  margin-left: 300px;
+}
+
+#menu {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.buttons {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 280px;
+  margin-left: 100px;
+  margin-top: 20px;
+  position: relative;
+}
+
+header {
+  display: flex;
+  margin-top: 88px;
+}
+
+#backButton {
+  background-color: hsl(251, 44%, 64%);
+  padding: 15px 25px;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.5s ease;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+
+#backButton:hover {
+  background-color: #D05270;
+}
+
+/* Introdução */
+
+div#introduction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img#introductionIMG {
+  width: 408.65px;
+  height: 407px;
+  border-radius: 10px;  
+  margin-top: 110px;
+  margin-right: 359px;
+}
+
+h2#introductionTitle {
+  color: #D05270;
+  width: 482px;
+  height: 63px;
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Área de conteúdo */
+
+h2#enterprise {
+  color: #D05270;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 360px;
+  display: flex;
+  margin-top: 10rem;
+}
+
+img#contentIMG {
+  width: 1200px;
+  height: 845px;
+  margin-left: 361px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.SubTítulo {
+  color: hsl(239, 95%, 60%);
+  font-size: large;
+  margin-left: 360px;
+  display: flex;
+  align-items: center;
+  margin-right: 161px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 36px;
+  margin-bottom: 3rem;
+}
